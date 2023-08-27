@@ -1,4 +1,71 @@
-h1 {
-  text-align: center;
-  color: blueviolet;
+body {
+  background: black;
+  line-height: normal;
+}
+
+form {
+  margin: 40px auto;
+}
+.weatherapp-container {
+  display: Grid;
+  margin: 50px auto;
+  border: 2px solid grey;
+  border-radius: 10px;
+  width: 800px;
+  height: 400px;
+  background: rgba(237, 157, 157, 0.6);
+}
+
+.weather-info-container {
+  margin-left: 100px;
+  margin-top: -30px;
+}
+.city-data-container {
+  margin-left: 100px;
+  margin-top: -30px;
+}
+#searchcity-input {
+  border: 1px solid rgba(237, 157, 157, 0.6);
+  border-radius: 30px;
+  padding: 10px;
+}
+#searchcity-submit-btn {
+  border: 1px solid rgba(237, 157, 157, 0.6);
+  background: rgba(237, 157, 157, 0.6);
+  border-radius: 30px;
+  padding: 10px 30px;
+  color: white;
+  font-size: 18px;
+}
+#searchcity-submit-btn:hover {
+  color: rgba(237, 157, 157, 0.6);
+  background: white;
+}
+#current-city-btn {
+  border: 1px solid rgba(161, 221, 242, 0.6);
+  background: rgba(161, 221, 242, 0.6);
+  border-radius: 30px;
+  padding: 10px 30px;
+  color: white;
+  font-size: 18px;
+}
+#current-city-btn:hover {
+  color: rgba(161, 221, 242, 0.6);
+  background: white;
+}
+.temperature {
+  font-size: 36px;
+}
+.degree-unit {
+  position: relative;
+  top: -18px;
+}
+i {
+  font-size: 36px;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
 }
